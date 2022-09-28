@@ -1,0 +1,113 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Avatar Editor - By Noah", "BloodTheme")
+
+-- Body
+local Body = Window:NewTab("Body")
+local BodySection = Body:NewSection("Body")
+
+
+BodySection:NewButton("Right Korblox", "Permanent Do Not Press Twice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/loadstrings/main/korblox%20right%20leg"))()
+end)
+
+BodySection:NewButton("Left Korblox", "Permanent Do Not Press Twice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/loadstrings/main/korblox%20left%20leg"))()
+end)
+
+BodySection:NewButton("Both Korblox", "Permanent Do Not Press Twice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/loadstrings/main/both%20korblox%20legs"))()
+end)
+
+BodySection:NewButton("Headless", "Permanent Do Not Press Twice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/loadstrings/main/headless"))()
+end)
+
+
+-- Horns
+local Horns = Window:NewTab("Horns")
+local HornsSection = Horns:NewSection("Horns")
+
+
+HornsSection:NewButton("Fiery", "Permanent Do Not Press Twice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoahNinja100/avatar/main/fiery"))()
+end)
+
+HornsSection:NewButton("Frozen", "Permanent Do Not Press Twice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoahNinja100/avatar/main/frozen"))()
+end)
+
+HornsSection:NewButton("Poison", "Permanent Do Not Press Twice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoahNinja100/avatar/main/Poison"))()
+end)
+
+
+-- Fedora
+local Fedora = Window:NewTab("Fedora")
+local FedoraSection = Fedora:NewSection("Fedora")
+
+
+FedoraSection:NewButton("Classic", "Permanent Do Not Press Twice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoahNinja100/avatar/main/Classic"))()
+end)
+
+FedoraSection:NewButton("White Sparkle", "Permanent Do Not Press Twice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoahNinja100/avatar/main/white%20sparkle"))()
+end)
+
+FedoraSection:NewButton("Green Sparkle", "Permanent Do Not Press Twice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoahNinja100/avatar/main/green%20sparkle"))()
+end)
+
+FedoraSection:NewButton("Purple Sparkle", "Permanent Do Not Press Twice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoahNinja100/avatar/main/purple%20sparkle"))()
+end)
+
+FedoraSection:NewButton("Sky Blue Sparkle", "Permanent Do Not Press Twice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoahNinja100/avatar/main/sky%20blue%20sparkle"))()
+end)
+
+FedoraSection:NewButton("Red Sparkle", "Permanent Do Not Press Twice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoahNinja100/avatar/main/red%20sparkle"))()
+end)
+
+FedoraSection:NewButton("Pink Sparkle", "Permanent Do Not Press Twice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoahNinja100/avatar/main/pink%20sparkle"))()
+end)
+
+FedoraSection:NewButton("Orange Sparkle", "Permanent Do Not Press Twice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoahNinja100/avatar/main/orange%20sparkle"))()
+end)
+
+FedoraSection:NewButton("Sparkle", "Permanent Do Not Press Twice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoahNinja100/avatar/main/sparkle"))()
+end)
+
+-- Other
+local Other = Window:NewTab("Other")
+local OtherSection = Other:NewSection("Other")
+
+
+OtherSection:NewButton("Silver King", "Permanent Do Not Press Twice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoahNinja100/avatar/main/silver%20king"))()
+end)
+
+OtherSection:NewButton("Void Star", "Permanent Do Not Press Twice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoahNinja100/avatar/main/void%20star"))()
+end)
+
+OtherSection:NewButton("Clockwork Headphones", "Permanent Do Not Press Twice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoahNinja100/avatar/main/clockwork%20headphones"))()
+end)
+
+OtherSection:NewButton("Clockwork Shades", "Permanent Do Not Press Twice", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoahNinja100/avatar/main/clockwork%20shades"))()
+end)
+
+-- Settings
+local Settings = Window:NewTab("Settings")
+local SettingsSection = Settings:NewSection("Settings")
+
+
+SettingsSection:NewKeybind("ToggleUI", "Toggle The UI On and Off", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
