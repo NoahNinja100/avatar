@@ -1,4 +1,5 @@
 game.Players.LocalPlayer.Character.Humanoid.Died:Connect(function()
+wait(10)
 function l(a, _)
 local b = Instance.new("Weld")
 b.Part0 = a.Parent
