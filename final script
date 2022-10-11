@@ -120,7 +120,7 @@ end)
 
 TestSection:NewToggle("Permanent Poison", "In testing may not work", function(state)
     if state then
-        game.Players.LocalPlayer.CharacterAdded:Connect(function()
+        game.Players.LocalPlayer.Character.Humanoid.Died:Connect(function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/NoahNinja100/avatar/main/Poison"))()
         end)
     else
@@ -130,7 +130,7 @@ end)
 
 TestSection:NewToggle("Permanent Fiery", "In testing may not work", function(state)
     if state then
-        game.Players.LocalPlayer.CharacterAdded:Connect(function()
+        game.Players.LocalPlayer.Character.Humanoid.Died:Connect(function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/NoahNinja100/avatar/main/fiery"))()
         end)
     else
@@ -140,7 +140,7 @@ end)
 
 TestSection:NewToggle("Permanent Frozen", "In testing may not work", function(state)
     if state then
-        game.Players.LocalPlayer.CharacterAdded:Connect(function()
+        game.Players.LocalPlayer.Character.Humanoid.Died:Connect(function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/NoahNinja100/avatar/main/frozen"))()
         end)
     else
@@ -150,7 +150,7 @@ end)
 
 TestSection:NewToggle("Permanent Clockwork Shades", "In testing may not work", function(state)
     if state then
-        game.Players.LocalPlayer.CharacterAdded:Connect(function()
+        game.Players.LocalPlayer.Character.Humanoid.Died:Connect(function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/NoahNinja100/avatar/main/clockwork%20shades"))()
         end)
     else
@@ -160,7 +160,7 @@ end)
 
 TestSection:NewToggle("Permanent Silver King", "In testing may not work", function(state)
     if state then
-        game.Players.LocalPlayer.CharacterAdded:Connect(function()
+        game.Players.LocalPlayer.Character.Humanoid.Died:Connect(function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/NoahNinja100/avatar/main/silver%20king"))()
         end)
     else
